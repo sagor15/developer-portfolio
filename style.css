@@ -1,5 +1,6 @@
-* {
+body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 45px;
@@ -29,4 +30,16 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.top-banner2 {
+  display: flex;
+  margin-top: 10px;
+}
+.div2 img {
+  width: 120%;
+  padding-left: 10px;
+}
+.div3 {
+  width: 80%;
+  padding-left: 150px;
 }
