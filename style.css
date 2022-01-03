@@ -34,6 +34,9 @@ section {
 .top-banner2 {
   display: flex;
   margin-top: 10px;
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .div2 img {
   width: 120%;
