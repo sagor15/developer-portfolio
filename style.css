@@ -6,9 +6,9 @@ h1 {
   font-size: 45px;
 }
 .orange-color {
-  color: orange;
+  color: rgb(243, 242, 239);
 }
-section {
+.flexible-container {
   display: flex;
 }
 .div1 {
@@ -45,4 +45,31 @@ section {
 .div3 {
   width: 80%;
   padding-left: 150px;
+}
+.div4{
+    width: 50%;
+    padding-left:40px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-left: 10px solid tomato;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+}
+h2{
+    font-size: 35px;
+}
+.last-container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+#web-dev-container{
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+}
+#amar-name{
+    background-image: linear-gradient(tomato,orange,);
+    color: white;
 }
